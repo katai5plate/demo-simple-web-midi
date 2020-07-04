@@ -4,7 +4,7 @@ import Player from "./Player";
 (async () => {
   /** MIDI ファイルのバイナリ情報 */
   const filebuf = new Uint8Array(
-    await (await fetch("./midi/example.mid")).arrayBuffer()
+    await (await fetch("./midi/song.mid")).arrayBuffer()
   );
 
   /** JSON パースされた MIDI ファイル */
