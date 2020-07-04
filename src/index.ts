@@ -25,8 +25,8 @@ import Player from "./Player";
       // 各チャンネルの音色設定
       channels: [
         {
-          vadsr: [0.5, 0, 0.1, 0.75, 0],
-          oscType: "triangle",
+          vadsr: [0.25, 0, 0.1, 0.75, 0],
+          oscType: "square",
         },
         {
           vadsr: [0.5, 0, 0, 0.5, 0],
@@ -34,7 +34,7 @@ import Player from "./Player";
         },
         {
           vadsr: [0.5, 0, 0.1, 0.5, 0.5],
-          oscType: "sine",
+          oscType: "triangle",
         },
         {
           vadsr: [0.5, 0, 0, 0.5, 0],
